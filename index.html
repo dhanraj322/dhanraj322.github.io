@@ -1,7 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+  #home{
+    text-align: center;
+  }
+  #menu1{
+    text-align: center;
+  }
+  #menu2{
+    text-align: center;
+  }
+  #menu3{
+    text-align: center;
+  }
+  .column1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  border-right: 1px solid   #A9A9A9 ;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
 <body>
-<h1>Allo World fssadffadfdsa</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<div class="container-fluid ">
+  <!-- Nav pills -->
+<ul class="nav nav-pills justify-content-end"  style="margin: 15px 50px">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#home">About</a>
+    </li>
+    <!--
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#menu1">About</a>
+    </li>
+  -->
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#menu2">Resume</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#menu1">Projects</a>
+    </li>
+  </ul>
+  <hr width="94%">
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br><br><br><br>
+      <div class="column1"><br><br><br>
+      <p style="font-size: 30px;color: #4f4a4a">Dhanraj Jamdade</p>
+      <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/dhanraj1//"><img alt="Linkedin" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0?e=2159024400&v=beta&t=itrwplyUUwPAVxqxN8THySQds9p401UaOtZIurSBVnA" width="25" border=0></a>
+      <a style="margin-left: 10px" target="_blank" title="Twitter" href="https://www.twitter.com/__dhanraj__"><img alt="Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" width="25" border=0></a>
+      </div>
+      <div class="column2"><br><br><br>
+             <p style="margin-left: 15px; font-size: 20px;text-align: left; color: #4f4a4a">I am a computer science undergrad with strong passion for learning and self-improvement. My primary interests are data structures and alogorithms, and machine learning. </p>
+
+      </div>
+    </div>
+    <div id="menu1"  class="container tab-pane fade"><br>
+      <br><br><br>
+       <p style="font-size: 20px;color: #4f4a4a">
+       </p>    
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br><br><br>
+      <span class="resume"> 
+  <embed  src="C:\Users\dhanr\OneDrive\Desktop\Resume\Resume_dhanraj.pdf#zoom=100" width="816px" height="1175px"/>
+       </span>
+    </div>
+  </div>
+</div>
+
