@@ -12,7 +12,23 @@
 
 <style type="text/css">
 
-  #home{
+  #home .home1{
+  	font-size: 30px;
+  	color: #4f4a4a;
+  }
+  #home .homecol1{
+  	text-align : center;
+  	border-right:1px solid grey; width: 35%;
+  }
+
+  #home .homecol2{
+  	text-align: center;
+  	margin-left: 20px;
+  	font-size: 20px;
+  	text-align: left; 
+  	color: #4f4a4a;
+  	margin-top: 10%;
+  	margin-bottom: 10%;
   }
 
   #menu1{
@@ -74,6 +90,38 @@
   height: auto;
 }
 
+@media screen and (max-width: 600px) {
+	  #home .home1{
+	  	font-size: 20px;
+	  	color: #4f4a4a;
+	  }
+
+	  #home .home1{
+	  	font-size: 20px;
+	  	color: #4f4a4a;
+	  }
+
+	  #home .homecol1{
+	  	text-align : center;
+	  	border-right:1px solid grey; width: 35%;
+	  }
+
+	  #home .homecol2{
+	  	text-align: center;
+	  	margin-left: 10px;
+	  	font-size: 15px;
+	  	text-align: left; 
+	  	color: #4f4a4a;
+	  	margin-top: 10%;
+	  	margin-bottom: 10%;
+	  }
+	  .fa {
+	  font-size: 20px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	}
+}
 </style>
 
 <body>
@@ -94,21 +142,19 @@
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div id="home" align="center" class="container tab-pane active">
+    <div id="home"  class="container tab-pane active">
     	<table style="margin-top: 10%;margin-bottom: 10%">
 		  <tr >
-		    <td align="center" style="border-right:1px solid grey; width: 35%">
-		      <p style=" font-size: 30px;color: #4f4a4a">Dhanraj Jamdade</p>
-		      <a target="blank" href="https://www.linkedin.com/in/dhanraj1//" class="fa fa-linkedin"></a>
-		      <a target="blank" href="https://github.com/dhanraj322" class="fa fa-github"></a>
+		    <td class="homecol1" >
+		      <p class="home1" >Dhanraj Jamdade</p>
+		      <a target="_blank" href="https://www.linkedin.com/in/dhanraj1//" class="fa fa-linkedin"></a>
+		      <a target="_blank" href="https://github.com/dhanraj322" class="fa fa-github"></a>
 		    </td>
-		    <td align="center">
-             <p style="margin-left: 20px; font-size: 20px;text-align: left; color: #4f4a4a;margin-top: 10%;margin-bottom: 10%">I am a computer science undergrad with strong passion for learning and self-improvement. My primary interests are data structures and alogorithms, and machine learning. </p>
+		    <td>
+              <p class="homecol2">I am a computer science undergrad with strong passion for learning and self-improvement. My primary interests are data structures and alogorithms, and machine learning. </p>
       		</td>
 		  </tr>
-		</table>
-      
-      
+		</table> 
     </div>
     <div id="menu1"  class="container tab-pane fade"><br>
        <p style="font-size: 20px;color: #4f4a4a">
@@ -117,7 +163,7 @@
     <div id="menu2" class="container tab-pane fade">
       
         <div style="justify-content: center;">
-        	<a target="blank" href="https://drive.google.com/file/d/1razho_6xiqMfb_y3x_G-ekxOmCzE2mm9/view?usp=sharing" class="btn btn-info" role="button">Download</a><br><br>
+        	<a  target="_blank" href="https://drive.google.com/file/d/1razho_6xiqMfb_y3x_G-ekxOmCzE2mm9/view?usp=sharing" class="btn btn-info" role="button">Download</a><br><br>
 			<image class = "resimage" src="lib/Resume_d.jpg"  >
 		</div>
    </div>
