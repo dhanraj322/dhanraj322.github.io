@@ -11,10 +11,12 @@
 </head>
 
 <style type="text/css">
+
   #home .home1{
   	font-size: 30px;
   	color: #4f4a4a;
   }
+
   #home .homecol1{
   	text-align : center;
   	border-right:1px solid grey; width: 35%;
@@ -31,7 +33,7 @@
   }
 
   #menu1{
-    margin-top:1%;
+    
   }
 
   #menu2{
@@ -46,56 +48,64 @@
   }
 
   .column1 {
-  float: left;
-  width: 40%;
-  padding: 10px;
-  border-right: 1px solid   #A9A9A9 ;
-}
+    float: left;
+    width: 40%;
+    padding: 10px;
+    border-right: 1px solid   #A9A9A9 ;
+  }
 
-.column2 {
-  float: left;
-  width: 60%;
-  padding: 10px;
-}
+  .column2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+  }
 
-.fa {
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-}
+  .fa {
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
 
-.fa:hover {
+  .fa1 {
+    font-size: 20px;
+    width: 30px;
+  }
+
+  .fa:hover {
     opacity: 0.5;
     text-decoration: none;
-}
+  }
 
-.fa-github {
-  color: #3B5998;
-}
+  .card:hover{
+    box-shadow: 4px 4px 10px;
+  }
 
-.fa-twitter {
-  color: #55ACEE;
-}
+  .fa-github {
+    color: #3B5998;
+  }
 
-.fa-linkedin {
-  color: #007bb5;
-}
+  .fa-twitter {
+    color: #55ACEE;
+  }
 
-.resimage {
-	border:1px solid grey;
-  width: 70%;
-  height: auto;
-}
-.custom {
-    width: 90px !important;
-    height: 45px;
-}
-@media screen and (max-width: 600px) {
-	  #home .home1{
-	  	font-size: 20px;
-	  	color: #4f4a4a;
-	  }
+  .fa-linkedin {
+    color: #007bb5;
+  }
+
+  .custom {
+    width: 70px !important;
+    height: 35px;
+  }
+
+  .custom_card{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: #E8E8E8;
+    width: 320px;
+  }
+
+  @media screen and (max-width: 600px) {
 
 	  #home .home1{
 	  	font-size: 20px;
@@ -116,57 +126,74 @@
 	  	margin-top: 10%;
 	  	margin-bottom: 10%;
 	  }
+
 	  .fa {
-	  font-size: 20px;
-	  width: 30px;
-	  text-align: center;
-	  text-decoration: none;
-	}
-}
+  	  font-size: 20px;
+  	  width: 25px;
+  	  text-align: center;
+  	  text-decoration: none;
+	   }
+
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .custom_card{
+      background-color: #E8E8E8;
+      width: 270px;
+    }
+
+    .fa {
+      font-size: 17px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+     }
+
+  }
+
 </style>
 
 <body>
-<div class="container-fluid ">
-  <!-- Nav pills -->
-<ul class="nav nav-pills justify-content-end"  style="margin: 1%">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="pill" href="#home">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu1">Projects</a>
-    </li>
-</ul>
-  <hr width="94%">
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="home"  class="container tab-pane active">
-    	<table style="margin-top: 10%;margin-bottom: 10%">
-		  <tr >
-		    <td class="homecol1" >
-		      <p class="home1" >Dhanraj Jamdade</p>
-          <a target="_blank" href="https://twitter.com/__dhanraj__" class="fa fa-twitter"></a>
-		      <a target="_blank" href="https://www.linkedin.com/in/dhanraj1//" class="fa fa-linkedin"></a>
-		      <a target="_blank" href="https://github.com/dhanraj322" class="fa fa-github"></a>
-		    </td>
-		    <td>
+  <div class="container-fluid ">
+    <ul class="nav nav-pills justify-content-end"  style="margin: 2vh">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#home">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu1">Projects</a>
+      </li>
+    </ul>
+    <hr width="95%">
+    <div class="tab-content">
+      <div id="home"  class="container tab-pane active">
+      	<table style="margin-top: 15vh;margin-bottom: 15vh">
+    		  <tr>
+    		    <td class="homecol1" >
+    		      <p class="home1" >Dhanraj Jamdade</p>
+              <a target="_blank" href="https://twitter.com/__dhanraj__" class="fa fa-twitter"></a>
+    		      <a target="_blank" href="https://www.linkedin.com/in/dhanraj1//" class="fa fa-linkedin"></a>
+    		      <a target="_blank" href="https://github.com/dhanraj322" class="fa fa-github"></a>
+    		    </td>
+    		    <td>
               <p class="homecol2">I am a computer science undergraduate with strong passion for learning and self-improvement. My primary interests are data structures and alogorithms, and machine learning. </p>
-      		</td>
-		  </tr>
-		</table> 
-		<div style="text-align: center;">
-		<a  target="_blank" href="https://drive.google.com/file/d/1razho_6xiqMfb_y3x_G-ekxOmCzE2mm9/view?usp=sharing" class="btn btn-outline-dark " role="button">View Resume</a>
-		</div>
-    </div>
-    <div id="menu1"  class="container tab-pane fade">
-       <div class="card text-center mx-auto" style="background-color: #E8E8E8; width: 320px;">
-        <img class="card-img-top" src="https://i.imgur.com/40txuX6.gif" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">BlockJump</h5>
-          <p class="card-text">Game created using Pygame and Python with simple mechanics.</p>
-          <a  target="_blank" href="https://github.com/dhanraj322/BlockJump" class="btn btn-outline-dark custom" style=" background-color: white ;" role="button" ><i class="fa fa-github" ></i></a>
-        </div>
-      </div> 
+          	</td>
+  		    </tr>
+  		  </table> 
+    		<div style="text-align: center;margin-bottom: 20px">
+          <br>
+    		  <a  target="_blank" href="https://drive.google.com/file/d/1razho_6xiqMfb_y3x_G-ekxOmCzE2mm9/view?usp=sharing" class="btn btn-outline-dark " role="button">View Resume</a>
+    		</div>
+      </div>
+      <div id="menu1"  class="container tab-pane fade">
+        <div class="card text-center mx-auto custom_card">
+          <img class="card-img-top" src="https://i.imgur.com/40txuX6.gif" alt="gif">
+          <div class="card-body">
+            <h5 class="card-title">BlockJump<a target="_blank" class="stretched-link fa fa-github fa1 " href="https://github.com/dhanraj322"></a></h5>
+            <p class="card-text">Game created using Pygame and Python with simple mechanics.</p>
+          </div>
+        </div> 
+      </div>
     </div>
   </div>
-</div>
+</body>
