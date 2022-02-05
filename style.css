@@ -13,25 +13,17 @@ a {
     background-color: transparent;
 }
 
+.homeTable {
+    width: 550px;
+}
+
+#home {
+    width: 800px;
+}
+
 #home .name {
    font-size: 27px;
    color: #4678b2;
-}
-
-#home .homecol1 {
-  text-align: center;
-  background-color: #e8e8e8;
-  padding: 50px;
-}
-
-#home .homecol2 {
-  text-align: center;
-  margin-left: 35px;
-  font-size: 20px;
-  text-align: left;
-  color: #4f4a4a;
-  margin-top: 8%;
-  margin-bottom: 10%;
 }
 
 #projects {
@@ -39,21 +31,11 @@ a {
   margin-top: 1%;
 }
 
-.column1 {
-  width: 80%;
-  margin: 50px auto;
-}
-
 .column2 {
+  text-align: left;
   font-size: 17px;
-  width: 60%;
-  margin: auto;
+  width: 700px;
   padding: 10px;
-}
-
-.btnres {
-  width: fit-content;
-  font-size: 15px;
 }
 
 .btnnav {
