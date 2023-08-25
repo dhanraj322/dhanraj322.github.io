@@ -1,6 +1,3 @@
-layout: page
-title: "words"
-permalink: /words
 <html>
 <head>
     <title>Search Links - Groups</title>
