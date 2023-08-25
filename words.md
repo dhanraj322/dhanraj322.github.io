@@ -1,11 +1,10 @@
 layout: page
 title: "words"
 permalink: /words
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Google Search Links - Groups</title>
+    <title>Search Links - Groups</title>
     <style>
         body {
             display: flex;
