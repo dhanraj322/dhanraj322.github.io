@@ -1,7 +1,6 @@
 layout: page
 title: "words"
 permalink: /words
-<!DOCTYPE html>
 <html>
 <head>
     <title>Search Links - Groups</title>
@@ -41,7 +40,7 @@ permalink: /words
     function createGroup(groupNumber, words) {
         var content = document.getElementById('content');
         var groupDiv = document.createElement('div');
-        groupDiv.innerHTML = '<h2>------------------------------------ Group ' + groupNumber + ' ------------------------------------</h2><ul>';
+        groupDiv.innerHTML = '<h2>------------------------------------ ' + groupNumber + ' ------------------------------------</h2><ul>';
         
         for (var i = 0; i < words.length; i++) {
             var word = words[i];
