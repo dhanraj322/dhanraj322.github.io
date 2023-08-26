@@ -37,7 +37,7 @@
     function createGroup(groupNumber, words) {
         var content = document.getElementById('content');
         var groupDiv = document.createElement('div');
-        groupDiv.innerHTML = '<h1>--------------------------------- ' + groupNumber + ' ---------------------------------</h1><ul>';
+        groupDiv.innerHTML = '<h1>-------------------------------- ' + groupNumber + ' --------------------------------</h1><ul>';
         
         for (var i = 0; i < words.length; i++) {
             var word = words[i];
