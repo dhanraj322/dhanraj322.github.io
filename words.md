@@ -43,7 +43,8 @@
             var word = words[i];
             var googleSearchLink = 'https://www.google.com/search?q=' + word;
             var someLink = 'https://mnemonicdictionary.com/?word=' + word;
-            groupDiv.innerHTML += '<li><a href="' + googleSearchLink + '">' + word + '</a> &nbsp; <a href="' + someLink + '">' + word + '</a></li>';
+            var rootLink = 'https://www.google.com/search?q=' + word + '+root+words';
+            groupDiv.innerHTML += '<li><a href="' + googleSearchLink + '">' + word + '</a> &nbsp; <a href="' + someLink + '">' + word + '</a> &nbsp; <a href="' + rootLink + '">' + word + '</a> </li>';
         }
         
         groupDiv.innerHTML += '</ul>';
